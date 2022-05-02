@@ -1,0 +1,10 @@
+GET http://localhost:4017/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNpd2VoIn0.y5dx9Pce59TjxR_0y4hQ7jdrK7KOKNkzTs7JzKx4ylw
+###
+
+POST http://localhost:4017/login
+Content-Type: application/json
+
+{
+"username": "Bret"
+}
